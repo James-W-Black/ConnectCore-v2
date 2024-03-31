@@ -1,0 +1,26 @@
+﻿@model Equipment
+
+@using Microsoft.AspNetCore.Http.Extensions
+@using System.Web
+
+<div class="modal-header modal-header-custom">
+    <h3>Create Equipment</h3>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+</div>
+
+<div class="modal-body modal-body-custom">
+
+    <form asp-action="CreateEquipment" id="create-Equipment">
+         
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating" style="padding-bottom:5px">
+               
+                    <input asp-for="@Model.Name" class="form-control required" />
+                   <label asp-for="@Model.Name" class="form-label"></label>
+                </div>          
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary mysexybutton" />
+                </div>
+    </form>
+
+</div>

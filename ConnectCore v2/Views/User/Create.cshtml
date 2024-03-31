@@ -1,0 +1,140 @@
+﻿@model ConnectCore_v2.Models.ViewModels.CreateUserVM
+
+@*@{
+    ViewData["Title"] = "Create";
+   // Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+<br />
+
+<script>
+
+    function showDiv(){
+         //$("#createuserdiv").show();
+         // $("#createuserdiv").hidden=false;
+           document.getElementById('createuserdiv').style.display = 'block';
+           document.getElementById('btcancelusertype').style.display = 'block';
+           
+    }
+
+     function hideDiv(){
+         //$("#createuserdiv").show();
+         // $("#createuserdiv").hidden=false;
+           document.getElementById('createuserdiv').style.display = 'none';
+           document.getElementById('btcancelusertype').style.display = 'none';
+           document.getElementById('usertypename').value = '';
+           
+    }
+</script>
+
+<div class="card">
+    <div class="card-header">
+        Create User
+    </div>
+    <div class="card-body">
+        <div class="row">
+        <div class="col-md-6">
+             <form asp-action="Create" id="create-User">
+            @Html.HiddenFor(m=>m.UserId)
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="User.FirstName" class="form-control required" />
+                <label asp-for="User.FirstName" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="User.LastName" class="form-control required" />
+                <label asp-for="User.LastName" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="LocationName" class="form-control required" />
+                <label asp-for="LocationName" class="control-label"></label>
+            </div>        
+            <div class="form-floating" style="padding-bottom:5px">
+
+                @Html.DropDownList("UserType", Model.UserType, "Select a User Type", new { @class= "form-control required" })
+                <label asp-for="User.UserType" class="form-label"></label>
+
+            </div>
+
+    
+                 
+              <div id="createuserdiv" class="form-floating" style="padding-bottom:5px; display:none;">
+
+                <input asp-for="ut.Name" id="usertypename" class="form-control required" />
+                <label asp-for="ut.Name" class="control-label"></label>
+            </div>   
+                    
+            
+            <div class="form-floating" style="padding-bottom:5px">
+                <input type="submit" value="Create" class="btn btn-primary mysexybutton" />
+            </div>
+        </form>
+        </div>
+        <div class="col-md-6">
+            <div class="form-floating" style="padding-top:200px">
+                <button id="btnnewuser" onclick="showDiv()" type="button" class="btn btn-primary mysexybutton">Add new user type</button>
+                @*<button id="btnnewuser" onclick="hideDiv()" type="button" class="btn btn-primary mysexybutton">Cancel</button>*@
+            </div>
+           <div class="form-floating" style="padding-top:20px">
+                <button id="btcancelusertype" style="display:none" onclick="hideDiv()" type="button" class="btn btn-primary mysexybutton">Cancel</button>
+           </div>
+               
+        
+        </div>
+        </div>
+       
+    </div>
+</div>
+
+
+@*<h4>Create User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" id="create-User">
+            @Html.HiddenFor(m=>m.UserId)
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="User.FirstName" class="form-control required" />
+                <label asp-for="User.FirstName" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="User.LastName" class="form-control required" />
+                <label asp-for="User.LastName" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                <input asp-for="LocationName" class="form-control required" />
+                <label asp-for="LocationName" class="control-label"></label>
+            </div>
+            @*<div cclass="form-group">
+                <label>Location</label>
+                @Html.DropDownList("Location", Model.Location, "Select a Location", new { @class= "form-control required" })
+                </div>
+            <div class="form-floating" style="padding-bottom:5px">
+
+                @Html.DropDownList("UserType", Model.UserType, "Select a User Type", new { @class= "form-control required" })
+                <label asp-for="User.UserType" class="form-label"></label>
+
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+                <button type="button" class="btn btn-primary mysexybutton" onclick="@Html.Awe().OpenPopup("CreateShift")">Add new user type</button>
+            </div>
+
+
+            <div class="form-floating" style="padding-bottom:5px">
+                <input type="submit" value="Create" class="btn btn-primary mysexybutton" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>*@
+

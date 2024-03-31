@@ -1,0 +1,70 @@
+﻿@model ConnectCore_v2.Models.ViewModels.EventViewModel
+
+@*@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">     
+            @Html.HiddenFor(m=>m.UserId)
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Event.Id" />
+            <div class="form-floating" style="padding-bottom:5px">
+               
+                <input asp-for="Event.Name" class="form-control" />
+              <label asp-for="Event.Name" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+                
+                <input asp-for="Event.Description" class="form-control" />
+             <label asp-for="Event.Description" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+               
+                <input asp-for="Event.StartTime" class="form-control" />
+                <label asp-for="Event.StartTime" class="control-label"></label>
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+                
+                <input asp-for="Event.EndTime" class="form-control" />
+              <label asp-for="Event.EndTime" class="control-label"></label>
+            </div>
+           <div class="form-floating" style="padding-bottom:5px">
+               
+                @Html.DropDownList("User", Model.users, Model.current.FirstName + " " + Model.current.LastName , new { @class= "form-control required" })
+                <label asp-for="Event.User" class="form-label"></label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary mysexybutton" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function SetSelectedLocation(Location) {
+        var locations = document.getElementById('Location'), loc, i;
+        for (i = 0; i < locations.length; i++) {
+            loc = locations[i];
+            if (loc.innerText === Location) {
+                loc.selected = "true";
+            }
+        }
+    }
+    var eventlocation = "@Html.Raw(Model.LocationName)";
+    document.addEventListener('DOMContentLoaded', function () {
+        SetSelectedLocation(eventlocation);
+    });
+</script>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

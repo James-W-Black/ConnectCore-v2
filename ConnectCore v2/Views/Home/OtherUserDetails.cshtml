@@ -1,0 +1,168 @@
+﻿@using System.Security.Claims
+@model ConnectCore_v2.Models.ViewModels.UserDetailsVM
+@{
+    ViewData["Title"] = "OtherUserDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+
+@*<div class="row">
+    <div class="col-md-6">
+        <form asp-action="updateUserDetails" id="update-user" >
+            @Html.HiddenFor(m=>m.UserId)
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-floating" style="padding-bottom:5px">
+                <input asp-for="User.FirstName" class="form-control" disabled />
+                <label asp-for="User.FirstName" class="form-label"></label>
+            </div>
+
+            <div class="form-floating" style="padding-bottom:5px">
+                <input asp-for="User.LastName" class="form-control" disabled />
+                <label asp-for="User.LastName" class="form-label"></label>
+            </div>
+
+            <div class="card-body">
+                <label>Roles</label>
+                @foreach (var role in Model.roleList)
+                {
+                  <tr>
+                    <td>
+                        <input id="@role.Text" type="checkbox" name="Role" value="@role.Text" checked="@role.Selected"/>
+                    </td>
+                    <td>
+                        <label for="@role.Value">@role.Text</label>
+                    </td>
+                </tr>
+                }
+            </div>
+            <div class="form-floating" style="padding-bottom:5px">
+            </div>
+           <input type="submit" value="updateUserDetails" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+*@
+
+
+
+
+
+
+<form asp-action="updateUserDetails" id="update-user">
+    @Html.HiddenFor(m=>m.UserId)
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<div class = "card"> 
+     <div class="card-header">
+        <h3>User Details</h3>
+    </div>
+
+    <div class="card-body">
+       <div class="row">
+           <div class="col-md-6">
+                <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.FirstName" class="form-control" disabled />
+                        <label asp-for="User.FirstName" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.LastName" class="form-control" disabled />
+                        <label asp-for="User.LastName" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.UserType.Name" class="form-control" disabled />
+                        <label asp-for="User.UserType.Name" class="form-label"></label>
+                    </div>
+            </div>
+
+            <div class="col-md-6 boxes">
+                 <table>
+                    @foreach (var role in Model.roleList)
+                    {
+                        <tr>
+                            <td>
+                                    @if(User.IsInRole("Admin") || User.IsInRole("UpdateUser"))
+                                    {
+                                        <input id="@role.Text" type="checkbox" name="Role" value="@role.Text" checked="@role.Selected" />
+                                    }else{
+                                        <input id="@role.Text" type="checkbox" name="Role" disabled value="@role.Text" checked="@role.Selected" />
+                                    }
+                                    
+                            </td>
+                            <td>
+                                <label for="@role.Value">@role.Text</label>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+       </div>
+
+       <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                        <input  type="submit"  value="Update" class="btn btn-primary mysexybutton" />
+                    </div>
+            </div>
+       </div>
+
+    </div>
+</div>
+
+</form>
+
+<br />
+
+<form>
+<div class="card">
+    <div class="card-header">
+        <h3>Holiday Log</h3>
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+           <table class="table table-bordered table-stripped" >
+                <thead>
+                    <tr>
+                        <th>
+                           Start Time 
+                        </th>
+                        <th>
+                           End Time 
+                        </th>
+                        <th>
+                           Status 
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+        @foreach (var holiday in Model.holidays)
+        {
+            <tr>
+                <td width="30%">
+                    @holiday.StartTime
+                </td>
+                <td width="30%">
+                    @holiday.EndTime
+                </td>       
+                <td width="30%">
+                    @holiday.Status.Name
+                </td>              
+            </tr>
+        }
+    </tbody>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+</form>
+
+
+

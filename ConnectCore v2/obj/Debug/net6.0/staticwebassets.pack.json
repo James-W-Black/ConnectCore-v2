@@ -1,0 +1,525 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ConnectCore v2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ConnectCore v2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\bootswatchThemeFlatly.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchThemeFlatly.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\black-cab\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\black-cab\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\black-cab\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\black-cab\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\black-cab\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\black-cab\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\bts\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\bts\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\bts\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\bts\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\bts\\awe_icons2.png",
+      "PackagePath": "staticwebassets\\css\\themes\\bts\\awe_icons2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\bts\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\bts\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gtx\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\gtx\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gtx\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gtx\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gtx\\awe_icons2.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gtx\\awe_icons2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gtx\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gtx\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gtx\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\gtx\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui3\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\gui3\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui3\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gui3\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui3\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gui3\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui3\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\gui3\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\gui\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gui\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\gui\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\gui\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\gui\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\met\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\met\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\met\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\met\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\met\\awe_icons2.png",
+      "PackagePath": "staticwebassets\\css\\themes\\met\\awe_icons2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\met\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\met\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\mui\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\mui\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\mui\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\mui\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\mui\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\mui\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\mui\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\mui\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\start\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\start\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\start\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\start\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\start\\awe_icons2.png",
+      "PackagePath": "staticwebassets\\css\\themes\\start\\awe_icons2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\start\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\start\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\awe_icons2.png",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\awe_icons2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\caretb.png",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\caretb.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\careth.png",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\careth.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\val\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\val\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\wui\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\wui\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\wui\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\wui\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\wui\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\wui\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\zen\\AwesomeMvc.css",
+      "PackagePath": "staticwebassets\\css\\themes\\zen\\AwesomeMvc.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\zen\\awe_icons.png",
+      "PackagePath": "staticwebassets\\css\\themes\\zen\\awe_icons.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\zen\\caret.png",
+      "PackagePath": "staticwebassets\\css\\themes\\zen\\caret.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\css\\themes\\zen\\loading.gif",
+      "PackagePath": "staticwebassets\\css\\themes\\zen\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo3.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo3.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo4.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo4.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo5.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo5.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo5edit.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo5edit.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo5edit2.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo5edit2.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\ConnectLogo5edit3.png",
+      "PackagePath": "staticwebassets\\img\\ConnectLogo5edit3.png"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\img\\dreamstime_l_53316586.jpg",
+      "PackagePath": "staticwebassets\\img\\dreamstime_l_53316586.jpg"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\js\\utils.js",
+      "PackagePath": "staticwebassets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\JWBla\\OneDrive\\Desktop\\ConnectCore v2\\ConnectCore v2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ConnectCore v2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ConnectCore v2.props",
+      "PackagePath": "build\\ConnectCore v2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ConnectCore v2.props",
+      "PackagePath": "buildMultiTargeting\\ConnectCore v2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ConnectCore v2.props",
+      "PackagePath": "buildTransitive\\ConnectCore v2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

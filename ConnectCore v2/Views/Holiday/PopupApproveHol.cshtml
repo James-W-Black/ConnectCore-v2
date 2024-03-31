@@ -1,0 +1,62 @@
+﻿@model Holiday
+
+@using Microsoft.AspNetCore.Http.Extensions
+@using System.Web
+
+<div class="modal-header modal-header-custom">
+    <h3>Approve holiday</h3>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+</div>
+
+
+<div class="modal-body modal-body-custom">
+
+    <p>Do you want to approve this holiday request?</p>
+
+    <table class="table-borderless" width="100%">
+        <tr>
+            <td width="50%">
+                <strong>Forename:</strong>
+            </td>
+            <td>
+                @Model.User.FirstName
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Surname:</strong>
+            </td>
+            <td>
+                @Model.User.LastName
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Start:</strong>
+            </td>
+            <td>
+                @Model.StartTime
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>End:</strong>
+            </td>
+            <td>
+                @Model.EndTime
+            </td>
+        </tr>
+    </table>
+
+    <form method="post" asp-action="ApproveHolidays" id="Approve-Holiday">
+        @Html.HiddenFor(m=>m.Id)
+        <div class="row">
+            <div class="form-group">
+                <div class="form-group" style="float:right">
+                    <input type="submit" value="Approve" class="btn btn-md mybutton2" />
+                    <button type="button"value="Reject" style="margin:10px" class="btn btn-md mybutton2" data-dismiss="modal">Reject</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

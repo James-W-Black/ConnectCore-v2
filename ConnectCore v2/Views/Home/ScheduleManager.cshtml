@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Schedule Manager";
+}
+
+<script>
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+       var calendarEl = document.getElementById('calendar');
+       var calendar = new FullCalendar.Calendar(calendarEl, {
+           initialView: 'timeGridWeek',
+           events: @Html.Raw(ViewData["Events"]),
+
+           eventClick: function(info){
+               
+              awe.open('EditShift', {params: {id: info.event.id}})
+           },
+         
+           resources: @Html.Raw(ViewData["Resources"]),
+           headerToolbar: {
+               left: 'today prev,next',
+               center: 'title',
+               right: 'timeGridWeek,dayGridMonth,listMonth'
+           },
+           slotEventOverlap: false,
+           allDaySlot: false
+       });
+       calendar.render();
+     });
+
+
+
+</script>
+
+<br />
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h3>Schedule Manager</h3>
+    </div>
+
+    <div class="card-body">
+
+       @* @Html.Awe().Button().Text("Create Shift").OnClick(Html.Awe().OpenPopup("CreateShift"))*@
+
+        <button type="button" class="btn btn-primary mysexybutton" onclick="@Html.Awe().OpenPopup("CreateShift")">Create Shift</button>
+        <button type="button" class="btn btn-primary mysexybutton" onclick="@Html.Awe().OpenPopup("CreateRepeatingShift")">Create Repeating Shift</button>
+
+        <br /><br />
+       @if (ViewData["Alert"] != null)
+                {
+                    <p style="color:red">@ViewData["Alert"]</p>                 
+                }
+
+        <p>Holiday <i style="color:#4dffff" class="bi bi-square-fill"></i> Shift <i style="color:#0066ff" class="bi bi-square-fill"></i></p>
+
+        <div class="text-center">
+            <div id='calendar'></div>
+        </div>
+    </div>
+
+</div>
+
+@(Html.Awe().InitPopup()
+      .Name("CreateShift")
+      .Url(Url.Action("Create","Event"))     
+      .Title("Create Shift"))
+
+@(Html.Awe().InitPopup()
+      .Name("EditShift")
+      .Url(Url.Action("Edit","Event"))     
+      .Title("Edit Shift"))
+
+@(Html.Awe().InitPopup()
+      .Name("CreateRepeatingShift")
+      .Url(Url.Action("CreateRepeatingShift","Event"))     
+      .Title("Create Repeating Shift"))

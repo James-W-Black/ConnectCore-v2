@@ -1,0 +1,221 @@
+﻿@using System.Security.Claims
+@model ConnectCore_v2.Models.ViewModels.UserDetailsVM
+@{
+    ViewData["Title"] = "UserDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(document).ready(function(){
+    $('#data').after('<div id="nav"></div>');
+    var rowsShown = 4;
+    var rowsTotal = $('#data tbody tr').length;
+    var numPages = rowsTotal/rowsShown;
+    for(i = 0;i < numPages;i++) {
+        var pageNum = i + 1;
+        $('#nav').append('<a href="#" rel="'+i+'">'+pageNum+'</a> ');
+    }
+    $('#data tbody tr').hide();
+    $('#data tbody tr').slice(0, rowsShown).show();
+    $('#nav a:first').addClass('active');
+    $('#nav a').bind('click', function(){
+
+        $('#nav a').removeClass('active');
+        $(this).addClass('active');
+        var currPage = $(this).attr('rel');
+        var startItem = currPage * rowsShown;
+        var endItem = startItem + rowsShown;
+        $('#data tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
+        css('display','table-row').animate({opacity:1}, 300);
+    });
+});
+
+    
+
+</script>
+<script>
+
+        function myFunction(name) {
+            var x = document.getElementById(name);
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+}
+    
+</script>
+
+<br />
+
+
+<form asp-action="updateUserDetails" id="update-user">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="card">
+        <div class="card-header" onclick="myFunction('userdetails')">
+            <h3>User Details</h3>
+        </div>
+
+        <div id="userdetails" class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.FirstName" class="form-control" disabled />
+                        <label asp-for="User.FirstName" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.LastName" class="form-control" disabled />
+                        <label asp-for="User.LastName" class="form-label"></label>
+                    </div>
+
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="User.UserType.Name" class="form-control" disabled />
+                        <label asp-for="User.UserType.Name" class="form-label"></label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 boxes" >
+                <div >
+                    <table align="right">
+                        @foreach (var role in Model.roleList)
+                        {
+                            <tr>
+                                <td>
+                                    <input id="@role.Text" type="checkbox" name="Role" value="@role.Text" disabled checked="@role.Selected" />
+                                </td>
+                                <td>
+                                    <label for="@role.Value">@role.Text</label>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+         </div>
+
+            <div class="row">
+                @*<div class="col-md-12">*@
+                    <div class="form-group">
+                        <input style="float:right;margin-top:10px;" type="submit" value="Update" class="btn btn-md mybutton2" />
+                    </div>
+              @*  </div>*@
+           </div>
+
+        </div>
+    </div>
+    </div>
+</form>
+
+<br />
+
+
+
+<form>
+    <div class="card">
+        <div class="card-header" onclick="myFunction('holidaylog')">
+            <h3>Holiday Log</h3>
+        </div>
+
+        <div id="holidaylog" class="card-body">
+            <div class="row">
+                <table id="data" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Start Time
+                            </th>
+                            <th >
+                                End Time
+                            </th>
+                            <th >
+                                Status
+                            </th>
+                            <th >
+                                Cancel
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var holiday in Model.holidays)
+                        {
+                            <tr>
+                                <td >
+                                    @holiday.StartTime
+                                </td>
+                                <td >
+                                    @holiday.EndTime
+                                </td>
+                                <td >
+                                    @holiday.Status.Name
+                                </td>
+                                <td style="width:6%;" align="center">
+                                @if (holiday.Status.Name == "Awaiting Approval")
+                                {
+                                        <a class="btn btn-md mybutton2" asp-controller="Holiday" asp-action="CancelHoliday" asp-route-id="@holiday.Id"><span aria-hidden="true">&times;</span></a>
+                                    
+                                        @*<button class="btn btn-md mybutton2 "  id='open' data-toggle="modal" data-target="#createEquipmentModal"><span aria-hidden="true">&times;</span></button>*@
+
+                                    
+
+                                }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+<br />
+
+
+
+<form asp-action="CreateHoliday" id="Create-Holiday">
+    @Html.HiddenFor(m=>m.UserId)
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="card">
+        <div class="card-header" onclick="myFunction('holidayform')">
+            <h3>Holiday Form</h3>
+        </div>
+
+        <div class="card-body" id="holidayform">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="Holiday.StartTime" class="form-control" />
+                        <label asp-for="Holiday.StartTime" class="form-label"></label>
+                    </div>
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="Holiday.EndTime" class="form-control" />
+                        <label asp-for="Holiday.EndTime" class="form-label"></label>
+                    </div>
+                    <div class="form-floating" style="padding-bottom:5px">
+                        <input asp-for="Holiday.Description" class="form-control" />
+                        <label asp-for="Holiday.Description" class="form-label"></label>
+                    </div>
+                </div>
+            </div>
+
+            @if (ViewData["Alert"] != null)
+                {
+                    <p style="color:red">@ViewData["Alert"]</p>                 
+                }
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="submit" value="Request" class="btn  mybutton2" />
+                    </div>
+                </div>              
+            </div>
+        </div>
+
+    </div>
+</form>
+

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('c6f0aa55-1fee-4487-931f-310a01524e40')]/resourceGroups/[parameters('test')]/providers/Microsoft.Sql/servers/connectcore/databases/aspnet-ConnectCore_v2-9FF7B5CB-2D7C-4BCC-979D-B94E4AEC73FF",
+      "type": "mssql.azure",
+      "connectionId": "DefaultConnection"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+﻿@model List<Holiday>
+
+<br />
+
+@*<form asp-action="ApproveHolidays" id="approve-holidays">
+ 
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
+    ><div class="card">
+        <div class="card-header">
+            <h3>Holidays For Approval</h3
+        </div>
+
+        <div class="card-body">
+            <table id="holidays" class="table  table-striped table-bordered" style="width:100%">
+                <thead>
+                    <th>
+                        Requested By
+                    </th>
+                    <th>
+                        Start Time
+                    </th>
+                    <th>
+                        End time
+                    </th>
+            <th>
+               Approve
+            </th>
+
+                </thead>
+                <tbody>
+                    @foreach (var hol in Model)
+                    {
+                        <tr>
+                            <td>
+                                @hol.User.FirstName @hol.User.LastName
+                            </td>
+                            <td>
+                                @hol.StartTime
+                            </td>
+                            <td>
+                                @hol.EndTime
+                            </td>
+
+                            
+                            <td >
+
+
+                            <div id="row-@hol.Id.ToString()" class="modal fade" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        @{
+                                            Html.RenderPartial("PopupApproveHol",hol);
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-md  mybutton2" id='open' data-toggle="modal" data-target="#row-@hol.Id.ToString()">Approve</button>
+                               
+                            </td>
+                                               
+                        </tr>
+                    }
+                </tbody>
+            </table>         
+
+        </div>
+
+    </div>
+  
+@*</form>*@
+
+
+
+

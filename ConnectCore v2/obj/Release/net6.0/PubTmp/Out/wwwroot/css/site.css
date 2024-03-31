@@ -1,0 +1,137 @@
+html {
+    font-size: 14px;
+    
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5) !important;
+
+}
+
+#loginForm {
+    width: 400px !important;
+    float: right !important;
+}
+
+@media only screen and (max-width: 1026px) {
+    #loginForm {
+        height: auto;
+        width: auto;
+        float: none;
+        
+    }
+}
+
+@media only screen and (max-width: 1026px) {
+    #ConnectLogo {
+        display: none;
+    }
+}
+
+.modal-header-custom {
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 150%);  
+    color: white;
+}
+
+
+
+#loading {
+    stroke-dasharray: 370;
+    stroke-dashoffset: 380;
+    fill: transparent;
+    animation: draw 7s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+        fill: white;
+    }
+}
+
+.modal{
+ 
+}
+
+.modal-body-custom {
+    background-color: #f2f2f2;
+}
+
+.card-header {
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 150%);
+    color: white;
+}
+
+.card-body {
+    background-color: #f2f2f2;
+}
+
+.o-pmc {
+    background: white !important;
+    z-index: 100;
+}
+
+.navbarcustom {
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    color: white;
+    box-shadow: 5px rgba(0,0,0,1) !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.boxes {
+    height: 200px;
+    overflow: auto;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.mysexybutton {
+    background-color: #7b99b7 !important;
+    border-color: #7b99b7 !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    color: white !important;
+}
+
+    .mysexybutton:hover {
+        background-color: #2d4052 !important;
+        border-color: #2d4052 !important;
+    }
+
+.mybutton2 {
+    background-color: #f2f2f2 !important;
+    color: #0099ff;
+    border-radius: 9999px;
+    box-shadow: -5px -5px 6px rgba(255,255,255,1), 5px 5px 10px rgba(0,0,0,0.25)
+}
+
+    .mybutton2:hover {
+        color: #00ccff;
+        box-shadow: -1px -1px 10px rgba(255,255,255,1), 1px 1px 5px rgba(0,0,0,0.3), inset -2px -2px 5px rgba(255,255,255,0.6), inset 2px 2px 4px rgba(0,0,0,0.3)
+    }
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: rgba(255, 255, 204,0.3);
+}

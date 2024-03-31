@@ -1,0 +1,94 @@
+﻿@model List<User>
+@{
+    ViewData["Title"] = "User List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(".btnrowvalue1").click(function () {
+        var tr = $(this).closest('tr');       
+        var FirstCol = tr.find('input[name="FirstName"]').val();
+        var SecondCol = tr.find('input[name="LastName"]').val();
+        var ThirdCol = tr.find('input[name="FirstName"]').val();
+        alert('Type1 : '+ FirstCol + ' ' + SecondCol + ' ' + ThirdCol);
+    });
+    
+    $(document).ready(function(){
+    $('#data').after('<div id="nav"></div>');
+    var rowsShown = 10;
+    var rowsTotal = $('#data tbody tr').length;
+    var numPages = rowsTotal/rowsShown;
+    for(i = 0;i < numPages;i++) {
+        var pageNum = i + 1;
+        $('#nav').append('<a href="#" rel="'+i+'">'+pageNum+'</a> ');
+    }
+    $('#data tbody tr').hide();
+    $('#data tbody tr').slice(0, rowsShown).show();
+    $('#nav a:first').addClass('active');
+    $('#nav a').bind('click', function(){
+
+        $('#nav a').removeClass('active');
+        $(this).addClass('active');
+        var currPage = $(this).attr('rel');
+        var startItem = currPage * rowsShown;
+        var endItem = startItem + rowsShown;
+        $('#data tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
+        css('display','table-row').animate({opacity:1}, 300);
+    });
+});
+</script>
+
+
+
+<br />
+<div class="card">
+    <div class="card-header">
+        <h3>User List</h3>
+    </div>
+    
+    <div class="card-body">
+        <table id="data" class="table table-bordered table-stripped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+             <th>
+                User Type
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td width="30%">
+                    @user.FirstName
+                </td>
+                <td width="30%">
+                    @user.LastName
+                </td>       
+                <td width="30%">
+                    @user.UserType.Name
+                </td> 
+                <td width="" class="text-end">
+                    <a asp-controller="Home" asp-action="OtherUserDetails" asp-route-id="@user.Id" class="btn btn-primary mysexybutton ">
+                        <i class="bi bi-arrow-right-square"></i> 
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    </div>
+</div>
+
+<br />
+
+
+
+
