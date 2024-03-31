@@ -1,0 +1,536 @@
+﻿++Solution 'ConnectCore v2' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ConnectCore v2.sln
+++ConnectCore v2
+i:{00000000-0000-0000-0000-000000000000}:ConnectCore v2
+++Connected Services 
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1804
+++Dependencies
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1803
+++Properties
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\properties\
+++wwwroot
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\
+++css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\
+++themes
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\
+++bootswatchThemeFlatly.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\bootswatchthemeflatly.css
+++Login.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\login.css
+++main.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\main.css
+++site.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\site.css
+++img
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\img\
+++dreamstime_l_53316586.jpg
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\img\dreamstime_l_53316586.jpg
+++js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\
+++awem.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\awem.js
+++AwesomeMvc.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\awesomemvc.js
+++main.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\main.js
+++main.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\main.min.js
+++site.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\site.js
+++utils.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\js\utils.js
+++lib
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\
+++bootstrap
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\
+++jquery
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\
+++jquery-validation
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation-unobtrusive\
+++favicon.ico
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\favicon.ico
+++Areas
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\
+++Identity
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\
+++Pages
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\
+++Account
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\
+++Manage
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\
+++_ManageNav.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\_managenav.cshtml
+++_ViewImports.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\_viewimports.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\_viewimports.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\_viewimports.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\_viewimports.cshtml
+++Index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\holiday\index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\location\index.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\index.cshtml
+++ManageNavPages.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\managenavpages.cs
+++CreateUser.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\createuser.cshtml
+++CreateUser.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\createuser.cshtml.cs
+++ForgotPassword.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\forgotpassword.cshtml
+++Login.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\login.cshtml
+++Logout.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\logout.cshtml
+++Register.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\register.cshtml
+++Register.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\register.cshtml.cs
+++_ValidationScriptsPartial.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\_validationscriptspartial.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\_validationscriptspartial.cshtml
+++_ViewStart.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\_viewstart.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\_viewstart.cshtml
+++Controllers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\
+++EventController.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\eventcontroller.cs
+++HolidayController.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\holidaycontroller.cs
+++HomeController.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\homecontroller.cs
+++LocationController.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\locationcontroller.cs
+++UserController.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\controllers\usercontroller.cs
+++Data
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\data\
+++ApplicationDbContext.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\data\applicationdbcontext.cs
+++ContextSeed.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\data\contextseed.cs
+++DAL.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\data\dal.cs
+++Roles.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\data\roles.cs
+++Helpers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\helpers\
+++Migrations
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\
+++Models
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\
+++ViewModels
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\viewmodels\
+++ApplicationUser.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\applicationuser.cs
+++ErrorViewModel.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\errorviewmodel.cs
+++Event.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\event.cs
+++Holiday.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\holiday.cs
+++HolidayStatus.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\holidaystatus.cs
+++Location.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\location.cs
+++User.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\user.cs
+++UserToUserType.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\usertousertype.cs
+++UserType.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\usertype.cs
+++Views
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\
+++Event
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\
+++Create.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\create.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\location\create.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\create.cshtml
+++Delete.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\delete.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\delete.cshtml
+++Details.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\details.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\location\details.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\details.cshtml
+++Edit.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\event\edit.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\edit.cshtml
+++Holiday
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\holiday\
+++ApprovedHols.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\holiday\approvedhols.cshtml
+++PopupApproveHol.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\holiday\popupapprovehol.cshtml
+++Home
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\
+++MyCalendar.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\mycalendar.cshtml
+++OtherUserDetails.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\otheruserdetails.cshtml
+++PopupCancelHol.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\popupcancelhol.cshtml
+++Privacy.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\privacy.cshtml
+++ScheduleManager.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\schedulemanager.cshtml
+++UserDetails.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\userdetails.cshtml
+++UserList.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\home\userlist.cshtml
+++Location
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\location\
+++Shared
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\
+++_Layout.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\_loginpartial.cshtml
+++Error.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\error.cshtml
+++User
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\
+++CreateOtherUser.cshtml
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\user\createotheruser.cshtml
+++appsettings.json
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\appsettings.json
+++Program.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\program.cs
+++ScaffoldingReadMe.txt
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\scaffoldingreadme.txt
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1844
+++Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:analyzers
+++Assemblies
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:assemblies
+++Frameworks
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:frameworks
+++Packages
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:packages
+++launchSettings.json
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\properties\launchsettings.json
+++serviceDependencies.json
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\properties\servicedependencies.json
+++black-cab
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\black-cab\
+++bts
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\bts\
+++gtx
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\
+++gui
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui\
+++gui3
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui3\
+++met
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\met\
+++mui
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\mui\
+++start
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\start\
+++val
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\
+++wui
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\wui\
+++zen
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\zen\
+++main.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\main.min.css
+++dist
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\dist\
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\license.txt
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++Index.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\manage\index.cshtml.cs
+++ForgotPassword.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\forgotpassword.cshtml.cs
+++Login.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\login.cshtml.cs
+++Logout.cshtml.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\areas\identity\pages\account\logout.cshtml.cs
+++JSONListHelper.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\helpers\jsonlisthelper.cs
+++20220408142818_initial.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408142818_initial.cs
+++20220408143935_help.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408143935_help.cs
+++20220408151425_removinglocationfk.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408151425_removinglocationfk.cs
+++20220408153008_UserTable.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408153008_usertable.cs
+++20220408161142_usertypeT.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408161142_usertypet.cs
+++20220418170303_holidayandstatustables.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220418170303_holidayandstatustables.cs
+++20220421122406_addApprovedByHol.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421122406_addapprovedbyhol.cs
+++20220421123943_changeApprovedbytype.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421123943_changeapprovedbytype.cs
+++20220421124602_renameUserHolField.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421124602_renameuserholfield.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\applicationdbcontextmodelsnapshot.cs
+++CreateUserVM.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\viewmodels\createuservm.cs
+++EventViewModel.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\viewmodels\eventviewmodel.cs
+++UserDetailsVM.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\models\viewmodels\userdetailsvm.cs
+++_Layout.cshtml.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\appsettings.development.json
+++MessagePackAnalyzer
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\sdk\6.0.103\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Omu.Awem
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\omu.awem
+++Omu.AwesomeMvc
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\omu.awesomemvc
+++Microsoft.AspNetCore.App
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\microsoft.netcore.app
+++Enums.NET (4.0.0)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1825
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1822
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.3)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1824
+++Microsoft.AspNetCore.Identity.UI (6.0.3)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1828
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.0)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1819
+++Microsoft.EntityFrameworkCore.Proxies (6.0.0)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1823
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.3)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1820
+++Microsoft.EntityFrameworkCore.Tools (6.0.3)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1826
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.2)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1827
+++Vereyon.Web.FlashMessage (3.0.0)
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:>1821
+++serviceDependencies.local.json
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\properties\servicedependencies.local.json
+++awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\black-cab\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\bts\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui3\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\met\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\mui\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\start\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\wui\awe_icons.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\zen\awe_icons.png
+++AwesomeMvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\black-cab\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\bts\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui3\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\met\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\mui\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\start\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\wui\awesomemvc.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\zen\awesomemvc.css
+++loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\black-cab\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\bts\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui3\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\met\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\mui\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\start\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\wui\loading.gif
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\zen\loading.gif
+++awe_icons2.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\bts\awe_icons2.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\awe_icons2.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\met\awe_icons2.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\start\awe_icons2.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\awe_icons2.png
+++caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gtx\caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui\caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\gui3\caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\mui\caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\caret.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\zen\caret.png
+++caretb.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\caretb.png
+++careth.png
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\css\themes\val\careth.png
+++jquery.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++20220408142818_initial.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408142818_initial.designer.cs
+++20220408143935_help.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408143935_help.designer.cs
+++20220408151425_removinglocationfk.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408151425_removinglocationfk.designer.cs
+++20220408153008_UserTable.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408153008_usertable.designer.cs
+++20220408161142_usertypeT.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220408161142_usertypet.designer.cs
+++20220418170303_holidayandstatustables.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220418170303_holidayandstatustables.designer.cs
+++20220421122406_addApprovedByHol.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421122406_addapprovedbyhol.designer.cs
+++20220421123943_changeApprovedbytype.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421123943_changeapprovedbytype.designer.cs
+++20220421124602_renameUserHolField.Designer.cs
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\migrations\20220421124602_renameuserholfield.designer.cs
+++bootstrap.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{c37b1d3a-2876-4b02-830b-05b40d8880c7}:c:\users\jwbla\vs2022\repos\connectcore v2\connectcore v2\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
